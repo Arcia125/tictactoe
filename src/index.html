@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>TicTacToe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--start piece-select modal -->
+    <div id='wrapper' class='container'>
+        <div id='piece-select' class='modal'>
+            <div class='modal-content'>
+                <h1>Choose X's or O's</h1>
+                <button id='X' class='piece-select-button'>X</button>
+                <button id='O' class='piece-select-button'>O</button>
+            </div>
+        </div>
+        <!--end piece-select modal -->
+        <!--start end-screen modal -->
+        <div id='end-screen' class='modal'>
+            <div class='modal-content'>
+                <h1 id='winner'>Wins</h1>
+            </div>
+        </div>
+        <!--end end-screen modal-->
+        <div class='game-board'>
+            <div id='0' class='game-square open'>
+            </div>
+            <div id='1' class='game-square open'>
+            </div>
+            <div id='2' class='game-square open'>
+            </div>
+            <div id='3' class='game-square open'>
+            </div>
+            <div id='4' class='game-square open'>
+            </div>
+            <div id='5' class='game-square open'>
+            </div>
+            <div id='6' class='game-square open'>
+            </div>
+            <div id='7' class='game-square open'>
+            </div>
+            <div id='8' class='game-square open'>
+            </div>
+        </div>
+        <!--.game-board-->
+    </div>
+    <!--.container-->
+    <script src='./main.js' type='text/javascript'></script>
+</body>
+
+</html>

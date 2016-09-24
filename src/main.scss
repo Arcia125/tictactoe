@@ -1,0 +1,60 @@
+body {
+  background: #000;
+}
+.modal {
+  width: 36em;
+  margin: 10em auto 2em auto;
+}
+
+.modal-content {
+  height: 10em;
+  text-align: center;
+}
+
+.piece-select-button {
+  border: 2px solid black;
+  height: 3em;
+  width: 3em;
+  background: black;
+  color: white;
+  border-radius: 3px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    opacity: .9;
+    background: white;
+    color: black;
+  }
+  &:active {
+}
+}
+
+.game-board {
+  margin: 2em auto 2em auto;
+  width: 32.143em;
+}
+
+.game-square {
+  float: left;
+  background: white;
+  border: 0.040em solid black;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  font-size: 50px;
+}
+.open {
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.X:before {
+  content: 'X';
+}
+
+.O:before {
+  content: 'O';
+}
